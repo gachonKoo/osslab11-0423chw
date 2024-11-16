@@ -1,3 +1,0 @@
-git add tester.py
-git commit -m "Fix tester.py syntax error"
-git push origin main
