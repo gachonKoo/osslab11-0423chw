@@ -1,11 +1,12 @@
 from geo import utils
 
 def test_geo_functions():
-    # 여기에 geo 패키지의 함수들을 테스트하는 코드를 작성합니다
-    # 예: utils.py에 calculate_distance 함수가 있다고 가정
-    result = utils.calculate_distance(0, 0, 3, 4)
-    assert result == 5, f"Expected 5, but got {result}"
+    distance = utils.calculate_distance(0, 0, 3, 4)
+    assert distance == 5, f"Expected distance 5, but got {distance}"
+
+    area = utils.calculate_area(3, 4)
+    assert area == 12, f"Expected area 12, but got {area}"
 
 if __name__ == "__main__":
     test_geo_functions()
-    print("모든 테스트가 통과되었습니다!")
+    print("All tests passed!")
