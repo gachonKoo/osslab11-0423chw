@@ -1,9 +1,9 @@
 from geo import utils
 
-def test_some_function():
-    # 여기에 테스트 코드를 작성합니다
+def test_geo_functions():
+    # 여기에 geo 패키지의 함수들을 테스트하는 코드를 작성합니다
     pass
 
 if __name__ == "__main__":
-    test_some_function()
+    test_geo_functions()
     print("모든 테스트가 통과되었습니다!")
