@@ -1,9 +1,11 @@
-import math
+from geo import utils
 
-def pythagoras(a, b):
-    c = math.sqrt(a**2 + b**2)
-    return c
+def test_geo_functions():
+    # 여기에 geo 패키지의 함수들을 테스트하는 코드를 작성합니다
+    # 예: utils.py에 calculate_distance 함수가 있다고 가정
+    result = utils.calculate_distance(0, 0, 3, 4)
+    assert result == 5, f"Expected 5, but got {result}"
 
-def circle(r):
-    area = math.pi * r**2
-    return area
+if __name__ == "__main__":
+    test_geo_functions()
+    print("모든 테스트가 통과되었습니다!")
